@@ -1,0 +1,12 @@
+/*
+  1 Title: Return Length of Arguments Passed
+  2 Link: https://leetcode.com/problems/return-length-of-arguments-passed/description/?envType=study-plan-v2&envId=30-days-of-javascript
+  3 Nr: 2703
+  4 JS challenge nr: 9.
+*/
+
+var argumentsLength = function(...args) {
+    return args.length;
+};
+
+argumentsLength(2, [2, 3, 5], null, "test");
